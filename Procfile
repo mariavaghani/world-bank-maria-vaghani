@@ -1,1 +1,1 @@
-web: python worldbank.py
+web gunicorn worldbank:app
